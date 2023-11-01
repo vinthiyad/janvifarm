@@ -28,7 +28,7 @@ const handleLogout = () =>{
     <nav className="navbar row">
     <div className="col-12 col-md-3">
       <div className="navbar-brand">
-      <Link to="/"><span id="cart" >xxxxyyyyyxxnnn</span></Link>
+      <Link to="/"><span id="cart" >Janvi Farm</span></Link>
       </div>
     </div>   
 

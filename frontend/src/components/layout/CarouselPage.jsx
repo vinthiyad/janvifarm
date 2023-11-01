@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {Carousel} from 'react-bootstrap';  
 
 export default function CarouselPage(){
-    const [carousel, setCarousel] = useState("/images/LandingPage2.jpg");  
+    const [carousel, setCarousel] = useState("/images/LandingPage1.png");  
     return(
 
         <Carousel pause="hover">
