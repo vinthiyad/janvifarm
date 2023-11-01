@@ -1,0 +1,78 @@
+[
+    {
+    "name" :  "orange" ,
+     "price" : 122.22,
+     "description" : "orange is good for health",
+     "ratings": 3,
+     "images" : [
+        
+            {
+                "filename" : "/images/products/orange.jpg" 
+                
+            },
+            {  
+                "filename" : "/images/products/Jilabifish.jpg"
+                
+            },
+            {
+                "filename" : "/images/products/palakspinach.jpg"  
+                
+            }
+            
+        
+     ], 
+     "category" : "Fruits",
+     "seller" : "WAAN",
+     "stock" : 56,
+     "noofReviews" : 9,
+     "reviews" : []
+    },
+    {
+        "name" :  "Kelluthi Fosh" ,
+         "price" : 4545.67,
+         "description" : "Kelluthi Fish is good for health",
+         "ratings": 33,
+         "images" : [
+            {
+                "filename" : "/images/products/Jilabifish.jpg"
+            }
+         ], 
+         "category" : "Fish",
+         "seller" : "MEGAM",
+         "stock" : 96,
+         "noofReviews" : 92,
+         "reviews" : []
+        },
+        {
+            "name" :  "Kereri" ,
+             "price" : 22.22,
+             "description" : "Kerai is good for health",
+             "ratings": 35,
+             "images" : [
+                {
+                    "filename" : "/images/products/palakspinach.jpg"
+                }
+             ], 
+             "category" : "Vegetables",
+             "seller" : "NACHATRAM",
+             "stock" : 6,
+             "noofReviews" : 95,
+             "reviews" : []
+            },
+            {
+                "name" :  "Water Melon" ,
+                 "price" : 5522.22,
+                 "description" : "Water Melon is good for health",
+                 "ratings": 355,
+                 "images" : [
+                    {
+                        "filename" : "/images/products/watermelon.jpg"
+                    }
+                 ], 
+                 "category" : "Fruits",
+                 "seller" : "NACHATRAM",
+                 "stock" : 9,
+                 "noofReviews" : 85,
+                 "reviews" : []
+            }
+]

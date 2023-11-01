@@ -1,0 +1,62 @@
+[  
+   {
+    
+    "shippinginfo": 
+    {
+        "address": "123 car street",
+        "country": "india",
+        "city": "wisdom sity",
+        "phoneno": "1234567890",
+        "postalcode": "12345"
+    } ,
+   
+    "orderitems" :[
+        {
+        "name": "Kelluthi Fosh",          
+        "quantity":10,
+        "image":  "abc.jpg",
+        "price":  1223.56,
+        "product": "6526e5a9789efea477361e71"
+	}],
+    "itemsprice": "90",
+    "taxprice":  "9.0",
+    "shippingprice":  "45.0",
+    "totalprice": "10000.00"
+
+    },
+    {
+    
+        "shippinginfo": 
+        {
+            "address": "321 mono street",
+            "country": "tokoya",
+            "city": "loose sity",
+            "phoneno": "0987654231",
+            "postalcode": "654123"
+        } ,
+       
+        "orderitems" :[
+            {
+            "name": "Kereri",          
+            "quantity":2,
+            "image":  "kerai.jpg",
+            "price":  90.56,
+            "product": "6526e5a9789efea477361e73"
+        }],
+        
+        "itemsprice": "10",
+        "taxprice":  "1.0",
+        "shippingprice":  "1.0",
+        "totalprice": "100.00",
+        "paymentinfo": 
+        {
+            "paymentid": "546557567",
+            "paymentstatus": "succeeded"
+            
+        } 
+    
+        }
+
+
+
+]

@@ -1,0 +1,16 @@
+ {
+    "amount" :2000,
+    "shipping": 
+    {
+        "name" : "JANVI",
+        "address": { 
+        "country": "india",
+        "city": "wisdom sity",
+        "postal_code": "12345"
+        }, 
+        "phone": "1234567890"
+        
+    } 
+    
+
+ }
