@@ -36,10 +36,9 @@ const setCurrentPageNo = (pageNo) =>{
 
   return (
     <>
-         
-      <CarouselPage></CarouselPage>    
        
-    {loading ? <Loader/> :  
+    <CarouselPage></CarouselPage>    
+     {loading ? <Loader/> :  
      <Fragment>
        <MetaData title={'Janvi Products'}></MetaData>   
       <section id="products" className="container mt-3">
