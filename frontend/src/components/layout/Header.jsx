@@ -1,4 +1,4 @@
-import React from 'react'
+import {Fragment, React} from 'react'
 import Search from './Search'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
@@ -8,6 +8,8 @@ import DropdownMenu from 'react-bootstrap/esm/DropdownMenu';
 import DropdownItem from 'react-bootstrap/esm/DropdownItem';
 import { useNavigate } from 'react-router-dom';
 import { logout } from '../../actions/userActions';
+import CarouselPage from './CarouselPage';
+
 
 
 
@@ -25,10 +27,11 @@ const handleLogout = () =>{
 
 
   return (
+    <Fragment>
     <nav className="navbar row">
     <div className="col-12 col-md-3">
       <div className="navbar-brand">
-      <Link to="/"><span id="cart" >Janvi Farm</span></Link>
+      <Link to="/"><span id="cart" >Janvi Farmvv</span></Link>
       </div>
     </div>   
 
@@ -65,7 +68,9 @@ const handleLogout = () =>{
      <Link  to ="/cart"> <span id="cart" className="ml-3">Cart</span></Link>
       <span className="ml-1" id="cart_count">{cartItems.length}</span> 
     </div>
-  </nav>   
+  </nav>  
+
+  </Fragment>
   )
 }
 
