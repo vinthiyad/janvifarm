@@ -4,18 +4,18 @@ import {Carousel} from 'react-bootstrap';
 export default function CarouselPage(){
     const [carousel, setCarousel] = useState([
         { 
-            "image"     : "/images/carousel/FarmImage1.jpeg",
+            "image"     : "/images/carousel/FarmImage4.jpeg",
             "caption"   : " Fresh Organic Products from Janvi Farm To Your Door !!! \n 50% Offer Hurry Up "
         },
         { 
-            "image"     : "/images/carousel/FarmImage2.jpeg",
+            "image"     : "/images/carousel/FarmImage20.jpeg",
             "caption"   : " Fresh Organic Katla and Jilabe Fish  from Janvi Farm To Your Door "},
         {
             "image"     : "/images/carousel/FarmImage3.jpeg" ,
             "caption"   : " Fresh Poultry Products from Janvi Farm To Your Door !!!"
         },
         { 
-            "image"     : "/images/carousel/FarmImage4.jpeg",
+            "image"     : "/images/carousel/FarmImage1.jpeg",
             "caption"   : " Fresh Milk Products from Janvi Farm To Your Door !!!"
         },
         { 
